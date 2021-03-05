@@ -1,0 +1,5 @@
+Run "runall.m" with all the other MATLAB files in the same folder.
+Variables are based on the microscopy setting (magnification, pixel size) 
+and microfluidic device characterization (diameter and spacing) in the "runall.m" file.
+
+r = skel2v4n(FileAVI,'magnification',4,'pixelsize',6.50,'diameter',40,'spacing',80,'verb',1);
